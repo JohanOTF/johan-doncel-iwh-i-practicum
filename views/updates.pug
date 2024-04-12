@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= pageTitle
+  body
+    h1= pageTitle
+    a(href="/") Return to the homepage
+    form(action="/update-cobj", method="POST")
+      label(for="name") Frist Name :
+      input(type="text", id="frist_name", name="frist name", required)
+      br
+      label(for="email") Last Name:
+      input(type="text", id="last_name", name="last name", required)
+      br
+      label(for="email") email :
+      input(type="email", id="email", name="email", required)
+      br
+      button(type="submit") Submit
