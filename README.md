@@ -29,4 +29,4 @@ ___
 
 # Developer test account
 ## Custom Object List View
-Link: [Custom Object List View](https://app.hubspot.com/contacts/5915953/objects/0-1/views/all/list)
+Link: [Contacts Object List View](https://app.hubspot.com/contacts/5915953/objects/0-1/views/all/list)
